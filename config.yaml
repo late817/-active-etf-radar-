@@ -1,0 +1,132 @@
+# ============================================================
+# active-etf-radar 設定檔
+# 範圍：台股股票型主動式ETF 13檔（2026-07-08 核准名單）
+# 剔除：跨國型6檔、債券型6檔、高息型(00984A/00400A)、金融型(00998A)
+# url 為每日抓取用的固定持股頁；url 為空的基金請先跑 probe workflow
+# 確認 probe_candidates 中哪個 URL 有效後填入。
+# ============================================================
+
+settings:
+  stale_after_days: 4        # 資料超過幾個日曆日視為過期
+  timeout_seconds: 45        # 每頁載入等待上限（秒）
+  shadow_initial_capital: 1000000   # 影子淨值起始資金（NTD）
+  buy_fee_pct: 0.0855        # 買進手續費 %
+  sell_fee_pct: 0.0855       # 賣出手續費 %
+  sell_tax_pct: 0.3          # 賣出證交稅 %
+  top_n: 5                   # 廣度排行前N名買進
+  exit_rank: 8               # 跌出前N名才賣出（緩衝帶）
+
+issuers:
+  nomura:
+    name: 野村投信
+    url_template: "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo={code}&tab=Shareholding"
+    wait_for: "table"
+  ezmoney:
+    name: 統一投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "持股權重", "申購買回清單"]
+  capitalfund:
+    name: 群益投信
+    wait_for: "table"
+    click_texts: ["投資組合", "持股明細", "持股權重"]
+  fhtrust:
+    name: 復華投信
+    wait_for: "table"
+    click_texts: ["持股權重", "投資組合", "持股明細", "基金持股"]
+  allianz:
+    name: 安聯投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "每日持股"]
+  tsit:
+    name: 台新投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "基金持股", "成分股"]
+  fsitc:
+    name: 第一金投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "持股權重", "成分股"]
+  ctbc:
+    name: 中國信託投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "申購買回清單", "成分股"]
+  mega:
+    name: 兆豐投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "持股權重", "成分股"]
+  jpmorgan:
+    name: 摩根投信
+    wait_for: "table"
+    click_texts: ["持股明細", "投資組合", "成分股"]
+
+funds:
+  - code: 00980A
+    name: 主動野村臺灣優選
+    issuer: nomura
+    url: ""            # 使用 url_template（舊站已驗證可用）
+  - code: 00985A
+    name: 主動野村台灣50
+    issuer: nomura
+    url: ""            # 使用 url_template（舊站已驗證可用）
+  - code: 00981A
+    name: 主動統一台股增長
+    issuer: ezmoney
+    url: "https://www.ezmoney.com.tw/ETF/Fund/Info?fundCode=49YTW"   # 舊站已驗證
+  - code: 00403A
+    name: 主動統一升級50
+    issuer: ezmoney
+    url: ""
+    probe_candidates:
+      - "https://www.ezmoney.com.tw/ETF"
+  - code: 00982A
+    name: 主動群益台灣強棒
+    issuer: capitalfund
+    url: "https://www.capitalfund.com.tw/etf/product/detail/399/basic"
+    probe_candidates:
+      - "https://www.capitalfund.com.tw/etf/product/detail/399/portfolio"
+  - code: 00992A
+    name: 主動群益科技創新
+    issuer: capitalfund
+    url: ""
+    probe_candidates:
+      - "https://www.capitalfund.com.tw/etf"
+  - code: 00991A
+    name: 主動復華未來50
+    issuer: fhtrust
+    url: "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23"           # 舊站已驗證
+  - code: 00993A
+    name: 主動安聯台灣
+    issuer: allianz
+    url: ""
+    probe_candidates:
+      - "https://www.allianzgi.com.tw/etf"
+      - "https://www.allianzgi.com.tw"
+  - code: 00987A
+    name: 主動台新臺灣優勢成長
+    issuer: tsit
+    url: "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A"
+  - code: 00994A
+    name: 主動第一金台股優
+    issuer: fsitc
+    url: ""
+    probe_candidates:
+      - "https://www.fsitc.com.tw/ETF"
+      - "https://www.fsitc.com.tw"
+  - code: 00995A
+    name: 主動中信台灣卓越
+    issuer: ctbc
+    url: ""
+    probe_candidates:
+      - "https://etf.ctbcinvestments.com.tw"
+      - "https://www.ctbcinvestments.com.tw"
+  - code: 00996A
+    name: 主動兆豐台灣豐收
+    issuer: mega
+    url: ""
+    probe_candidates:
+      - "https://www.megafunds.com.tw"
+  - code: 00401A
+    name: 主動摩根台灣鑫收
+    issuer: jpmorgan
+    url: ""
+    probe_candidates:
+      - "https://am.jpmorgan.com/tw/zh/asset-management/per/products/"
