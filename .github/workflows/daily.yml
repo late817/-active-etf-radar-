@@ -1,0 +1,31 @@
+name: daily-update
+on:
+  schedule:
+    - cron: '30 14 * * 1-5'   # 台北時間 22:30（UTC+8），週一至週五
+  workflow_dispatch:
+jobs:
+  run:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - run: pip install -r requirements.txt
+      - run: playwright install --with-deps chromium
+      - name: 抓取各投信持股
+        run: python scraper.py
+        continue-on-error: true
+      - name: 抓取大盤權重與收盤
+        run: python market_weights.py
+      - name: 計算與影子投組記帳
+        run: python compute.py
+      - name: 提交資料
+        run: |
+          git config user.name "radar-bot"
+          git config user.email "actions@users.noreply.github.com"
+          git add docs/data
+          git diff --cached --quiet || git commit -m "data: $(TZ=Asia/Taipei date +'%Y-%m-%d %H:%M')"
+          git push
