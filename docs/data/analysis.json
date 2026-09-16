@@ -1,6 +1,6 @@
 {
- "as_of": "2026-09-16 02:27",
- "trade_date": "2026-09-14",
+ "as_of": "2026-09-17 02:23",
+ "trade_date": "2026-09-15",
  "coverage": {
   "total": 13,
   "parsed": 4,
@@ -28,7 +28,7 @@
     "name": "主動復華未來50",
     "issuer": "復華投信",
     "status": "ok",
-    "data_date": "2026-09-15"
+    "data_date": "2026-09-16"
    },
    "00987A": {
     "name": "主動台新臺灣優勢成長",
@@ -43,326 +43,321 @@
    "code": "2383",
    "name": "台光電子材料",
    "n_etfs": 4,
-   "sum_active": 19.5346,
-   "sum_weight": 24.673,
+   "sum_active": 19.402,
+   "sum_weight": 24.358,
    "funds": [
     {
      "etf": "00980A",
-     "w": 3.72,
-     "aw": 2.4354
+     "w": 3.64,
+     "aw": 2.401
     },
     {
      "etf": "00985A",
-     "w": 2.62,
-     "aw": 1.3354
+     "w": 2.58,
+     "aw": 1.341
     },
     {
      "etf": "00981A",
      "w": 8.95,
-     "aw": 7.6654
+     "aw": 7.711
     },
     {
      "etf": "00991A",
-     "w": 9.383,
-     "aw": 8.0984
+     "w": 9.188,
+     "aw": 7.949
     }
    ],
    "rank": 1,
-   "mkt_weight": 1.2846
+   "mkt_weight": 1.239
   },
   {
    "code": "2454",
    "name": "聯發科技",
    "n_etfs": 4,
-   "sum_active": 5.5323,
-   "sum_weight": 23.179,
+   "sum_active": 6.6371,
+   "sum_weight": 24.016,
    "funds": [
     {
      "etf": "00980A",
-     "w": 5.91,
-     "aw": 1.0011
+     "w": 5.94,
+     "aw": 1.1337
     },
     {
      "etf": "00985A",
-     "w": 2.92,
-     "aw": -1.9889
+     "w": 2.96,
+     "aw": -1.8463
     },
     {
      "etf": "00981A",
-     "w": 8.46,
-     "aw": 3.5511
+     "w": 8.71,
+     "aw": 3.9037
     },
     {
      "etf": "00991A",
-     "w": 5.889,
-     "aw": 0.9801
+     "w": 6.406,
+     "aw": 1.5997
     }
    ],
    "rank": 2,
-   "mkt_weight": 4.9089
+   "mkt_weight": 4.8063
   },
   {
    "code": "2330",
    "name": "台灣積體電路製造",
    "n_etfs": 4,
    "sum_active": 0.0,
-   "sum_weight": 47.018,
+   "sum_weight": 46.531,
    "funds": [
     {
      "etf": "00980A",
-     "w": 9.61,
-     "aw": -31.788
+     "w": 9.43,
+     "aw": -32.3799
     },
     {
      "etf": "00985A",
-     "w": 14.94,
-     "aw": -26.458
+     "w": 14.79,
+     "aw": -27.0199
     },
     {
      "etf": "00981A",
-     "w": 10.42,
-     "aw": -30.978
+     "w": 10.47,
+     "aw": -31.3399
     },
     {
      "etf": "00991A",
-     "w": 12.048,
-     "aw": -29.35
+     "w": 11.841,
+     "aw": -29.9689
     }
    ],
    "rank": 3,
-   "mkt_weight": 41.398
+   "mkt_weight": 41.8099
   },
   {
    "code": "3037",
    "name": "欣興電子",
    "n_etfs": 3,
-   "sum_active": 13.3633,
-   "sum_weight": 16.567,
+   "sum_active": 13.4714,
+   "sum_weight": 16.637,
    "funds": [
     {
      "etf": "00980A",
-     "w": 3.01,
-     "aw": 1.9421
+     "w": 2.99,
+     "aw": 1.9348
     },
     {
      "etf": "00981A",
-     "w": 7.11,
-     "aw": 6.0421
+     "w": 7.23,
+     "aw": 6.1748
     },
     {
      "etf": "00991A",
-     "w": 6.447,
-     "aw": 5.3791
+     "w": 6.417,
+     "aw": 5.3618
     }
    ],
    "rank": 4,
-   "mkt_weight": 1.0679
-  },
-  {
-   "code": "6669",
-   "name": "緯穎科技服務",
-   "n_etfs": 3,
-   "sum_active": 11.897,
-   "sum_weight": 12.746,
-   "funds": [
-    {
-     "etf": "00985A",
-     "w": 2.6,
-     "aw": 2.317
-    },
-    {
-     "etf": "00981A",
-     "w": 5.53,
-     "aw": 5.247
-    },
-    {
-     "etf": "00991A",
-     "w": 4.616,
-     "aw": 4.333
-    }
-   ],
-   "rank": 5,
-   "mkt_weight": 0.283
+   "mkt_weight": 1.0552
   },
   {
    "code": "2059",
    "name": "川湖科技",
    "n_etfs": 2,
-   "sum_active": 10.4542,
-   "sum_weight": 11.987,
+   "sum_active": 10.6256,
+   "sum_weight": 12.135,
    "funds": [
     {
      "etf": "00980A",
-     "w": 4.2,
-     "aw": 3.4336
+     "w": 4.25,
+     "aw": 3.4953
     },
     {
      "etf": "00991A",
-     "w": 7.787,
-     "aw": 7.0206
+     "w": 7.885,
+     "aw": 7.1303
     }
    ],
-   "rank": 6,
-   "mkt_weight": 0.7664
+   "rank": 5,
+   "mkt_weight": 0.7547
   },
   {
    "code": "3017",
    "name": "奇鋐",
    "n_etfs": 2,
-   "sum_active": 10.2524,
-   "sum_weight": 11.996,
+   "sum_active": 10.5422,
+   "sum_weight": 12.196,
    "funds": [
     {
      "etf": "00981A",
-     "w": 6.82,
-     "aw": 5.9482
+     "w": 7.0,
+     "aw": 6.1731
     },
     {
      "etf": "00991A",
-     "w": 5.176,
-     "aw": 4.3042
+     "w": 5.196,
+     "aw": 4.3691
     }
    ],
-   "rank": 7,
-   "mkt_weight": 0.8718
+   "rank": 6,
+   "mkt_weight": 0.8269
   },
   {
    "code": "2408",
    "name": "南亞科技",
    "n_etfs": 2,
-   "sum_active": 9.0808,
-   "sum_weight": 11.27,
+   "sum_active": 9.5676,
+   "sum_weight": 11.739,
    "funds": [
     {
      "etf": "00980A",
-     "w": 2.73,
-     "aw": 1.6354
+     "w": 2.84,
+     "aw": 1.7543
     },
     {
      "etf": "00991A",
-     "w": 8.54,
-     "aw": 7.4454
+     "w": 8.899,
+     "aw": 7.8133
     }
    ],
-   "rank": 8,
-   "mkt_weight": 1.0946
+   "rank": 7,
+   "mkt_weight": 1.0857
   },
   {
    "code": "2327",
    "name": "國巨*",
    "n_etfs": 2,
-   "sum_active": 8.7888,
-   "sum_weight": 10.294,
+   "sum_active": 8.7284,
+   "sum_weight": 10.223,
    "funds": [
     {
      "etf": "00981A",
-     "w": 4.94,
-     "aw": 4.1874
+     "w": 4.96,
+     "aw": 4.2127
     },
     {
      "etf": "00991A",
-     "w": 5.354,
-     "aw": 4.6014
+     "w": 5.263,
+     "aw": 4.5157
     }
    ],
-   "rank": 9,
-   "mkt_weight": 0.7526
+   "rank": 8,
+   "mkt_weight": 0.7473
   },
   {
    "code": "8046",
    "name": "南電",
    "n_etfs": 2,
-   "sum_active": 7.6154,
-   "sum_weight": 8.53,
+   "sum_active": 7.6862,
+   "sum_weight": 8.634,
    "funds": [
     {
      "etf": "00981A",
-     "w": 3.77,
-     "aw": 3.3127
+     "w": 3.86,
+     "aw": 3.3861
     },
     {
      "etf": "00991A",
-     "w": 4.76,
-     "aw": 4.3027
+     "w": 4.774,
+     "aw": 4.3001
+    }
+   ],
+   "rank": 9,
+   "mkt_weight": 0.4739
+  },
+  {
+   "code": "6669",
+   "name": "緯穎科技服務",
+   "n_etfs": 2,
+   "sum_active": 7.0384,
+   "sum_weight": 7.62,
+   "funds": [
+    {
+     "etf": "00985A",
+     "w": 2.41,
+     "aw": 2.1192
+    },
+    {
+     "etf": "00981A",
+     "w": 5.21,
+     "aw": 4.9192
     }
    ],
    "rank": 10,
-   "mkt_weight": 0.4573
+   "mkt_weight": 0.2908
   },
   {
    "code": "3711",
    "name": "日月光投資控股",
    "n_etfs": 2,
-   "sum_active": 4.0996,
-   "sum_weight": 7.77,
+   "sum_active": 4.3618,
+   "sum_weight": 7.94,
    "funds": [
     {
      "etf": "00985A",
-     "w": 4.11,
-     "aw": 2.2748
+     "w": 4.17,
+     "aw": 2.3809
     },
     {
      "etf": "00981A",
-     "w": 3.66,
-     "aw": 1.8248
+     "w": 3.77,
+     "aw": 1.9809
     }
    ],
    "rank": 11,
-   "mkt_weight": 1.8352
+   "mkt_weight": 1.7891
   },
   {
    "code": "2308",
    "name": "台達電子工業",
    "n_etfs": 2,
-   "sum_active": 2.415,
-   "sum_weight": 8.06,
+   "sum_active": 2.3652,
+   "sum_weight": 8.23,
    "funds": [
     {
      "etf": "00980A",
-     "w": 3.61,
-     "aw": 0.7875
+     "w": 3.64,
+     "aw": 0.7076
     },
     {
      "etf": "00981A",
-     "w": 4.45,
-     "aw": 1.6275
+     "w": 4.59,
+     "aw": 1.6576
     }
    ],
    "rank": 12,
-   "mkt_weight": 2.8225
+   "mkt_weight": 2.9324
   },
   {
    "code": "2317",
    "name": "鴻海精密工業",
    "n_etfs": 2,
-   "sum_active": 0.3276,
-   "sum_weight": 5.02,
+   "sum_active": 0.289,
+   "sum_weight": 4.98,
    "funds": [
     {
      "etf": "00980A",
-     "w": 2.54,
-     "aw": 0.1938
+     "w": 2.51,
+     "aw": 0.1645
     },
     {
      "etf": "00985A",
-     "w": 2.48,
-     "aw": 0.1338
+     "w": 2.47,
+     "aw": 0.1245
     }
    ],
    "rank": 13,
-   "mkt_weight": 2.3462
+   "mkt_weight": 2.3455
   },
   {
    "code": "6223",
    "name": "旺矽",
    "n_etfs": 1,
-   "sum_active": 5.1,
-   "sum_weight": 5.1,
+   "sum_active": 5.28,
+   "sum_weight": 5.28,
    "funds": [
     {
      "etf": "00981A",
-     "w": 5.1,
-     "aw": 5.1
+     "w": 5.28,
+     "aw": 5.28
     }
    ],
    "rank": 14,
@@ -372,225 +367,241 @@
    "code": "3653",
    "name": "健策",
    "n_etfs": 1,
-   "sum_active": 4.3354,
-   "sum_weight": 4.91,
+   "sum_active": 4.3516,
+   "sum_weight": 4.88,
    "funds": [
     {
      "etf": "00981A",
-     "w": 4.91,
-     "aw": 4.3354
+     "w": 4.88,
+     "aw": 4.3516
     }
    ],
    "rank": 15,
-   "mkt_weight": 0.5746
+   "mkt_weight": 0.5284
+  },
+  {
+   "code": "3189",
+   "name": "景碩科技",
+   "n_etfs": 1,
+   "sum_active": 4.2798,
+   "sum_weight": 4.563,
+   "funds": [
+    {
+     "etf": "00991A",
+     "w": 4.563,
+     "aw": 4.2798
+    }
+   ],
+   "rank": 16,
+   "mkt_weight": 0.2832
   },
   {
    "code": "2376",
    "name": "技嘉科技",
    "n_etfs": 1,
-   "sum_active": 3.9454,
-   "sum_weight": 4.1,
+   "sum_active": 3.9947,
+   "sum_weight": 4.15,
    "funds": [
     {
      "etf": "00985A",
-     "w": 4.1,
-     "aw": 3.9454
-    }
-   ],
-   "rank": 16,
-   "mkt_weight": 0.1546
-  },
-  {
-   "code": "4904",
-   "name": "遠傳電信",
-   "n_etfs": 1,
-   "sum_active": 3.7535,
-   "sum_weight": 4.01,
-   "funds": [
-    {
-     "etf": "00985A",
-     "w": 4.01,
-     "aw": 3.7535
+     "w": 4.15,
+     "aw": 3.9947
     }
    ],
    "rank": 17,
-   "mkt_weight": 0.2565
+   "mkt_weight": 0.1553
   },
   {
    "code": "2345",
    "name": "智邦",
    "n_etfs": 1,
-   "sum_active": 3.6743,
-   "sum_weight": 4.38,
+   "sum_active": 3.7121,
+   "sum_weight": 4.41,
    "funds": [
     {
      "etf": "00981A",
-     "w": 4.38,
-     "aw": 3.6743
+     "w": 4.41,
+     "aw": 3.7121
     }
    ],
    "rank": 18,
-   "mkt_weight": 0.7057
+   "mkt_weight": 0.6979
+  },
+  {
+   "code": "4904",
+   "name": "遠傳電信",
+   "n_etfs": 1,
+   "sum_active": 3.6603,
+   "sum_weight": 3.92,
+   "funds": [
+    {
+     "etf": "00985A",
+     "w": 3.92,
+     "aw": 3.6603
+    }
+   ],
+   "rank": 19,
+   "mkt_weight": 0.2597
   },
   {
    "code": "2303",
    "name": "聯電",
    "n_etfs": 1,
-   "sum_active": 3.3385,
-   "sum_weight": 4.54,
+   "sum_active": 3.5131,
+   "sum_weight": 4.69,
    "funds": [
     {
      "etf": "00981A",
-     "w": 4.54,
-     "aw": 3.3385
+     "w": 4.69,
+     "aw": 3.5131
     }
    ],
-   "rank": 19,
-   "mkt_weight": 1.2015
+   "rank": 20,
+   "mkt_weight": 1.1769
   },
   {
    "code": "2412",
    "name": "中華電信",
    "n_etfs": 1,
-   "sum_active": 3.2485,
-   "sum_weight": 3.99,
+   "sum_active": 3.2075,
+   "sum_weight": 3.96,
    "funds": [
     {
      "etf": "00985A",
-     "w": 3.99,
-     "aw": 3.2485
+     "w": 3.96,
+     "aw": 3.2075
     }
    ],
-   "rank": 20,
-   "mkt_weight": 0.7415
+   "rank": 21,
+   "mkt_weight": 0.7525
   },
   {
    "code": "3665",
    "name": "貿聯-KY",
    "n_etfs": 1,
-   "sum_active": 2.8583,
-   "sum_weight": 3.12,
+   "sum_active": 2.9029,
+   "sum_weight": 3.17,
    "funds": [
     {
      "etf": "00981A",
-     "w": 3.12,
-     "aw": 2.8583
+     "w": 3.17,
+     "aw": 2.9029
     }
    ],
-   "rank": 21,
-   "mkt_weight": 0.2617
+   "rank": 22,
+   "mkt_weight": 0.2671
   },
   {
    "code": "6274",
    "name": "台燿",
    "n_etfs": 1,
-   "sum_active": 2.72,
-   "sum_weight": 2.72,
+   "sum_active": 2.83,
+   "sum_weight": 2.83,
    "funds": [
     {
      "etf": "00981A",
-     "w": 2.72,
-     "aw": 2.72
+     "w": 2.83,
+     "aw": 2.83
     }
    ],
-   "rank": 22,
+   "rank": 23,
    "mkt_weight": 0.0
   },
   {
    "code": "2395",
    "name": "研華",
    "n_etfs": 1,
-   "sum_active": 2.5994,
-   "sum_weight": 2.99,
+   "sum_active": 2.6076,
+   "sum_weight": 3.01,
    "funds": [
     {
      "etf": "00985A",
-     "w": 2.99,
-     "aw": 2.5994
-    }
-   ],
-   "rank": 23,
-   "mkt_weight": 0.3906
-  },
-  {
-   "code": "7769",
-   "name": "鴻勁精密",
-   "n_etfs": 1,
-   "sum_active": 1.6391,
-   "sum_weight": 2.4,
-   "funds": [
-    {
-     "etf": "00980A",
-     "w": 2.4,
-     "aw": 1.6391
+     "w": 3.01,
+     "aw": 2.6076
     }
    ],
    "rank": 24,
-   "mkt_weight": 0.7609
+   "mkt_weight": 0.4024
   },
   {
    "code": "1303",
    "name": "南亞塑膠工業",
    "n_etfs": 1,
-   "sum_active": 1.6152,
-   "sum_weight": 2.86,
+   "sum_active": 1.6625,
+   "sum_weight": 2.85,
    "funds": [
     {
      "etf": "00980A",
-     "w": 2.86,
-     "aw": 1.6152
+     "w": 2.85,
+     "aw": 1.6625
     }
    ],
    "rank": 25,
-   "mkt_weight": 1.2448
+   "mkt_weight": 1.1875
+  },
+  {
+   "code": "7769",
+   "name": "鴻勁精密",
+   "n_etfs": 1,
+   "sum_active": 1.6038,
+   "sum_weight": 2.35,
+   "funds": [
+    {
+     "etf": "00980A",
+     "w": 2.35,
+     "aw": 1.6038
+    }
+   ],
+   "rank": 26,
+   "mkt_weight": 0.7462
   },
   {
    "code": "5274",
    "name": "信驊",
    "n_etfs": 1,
-   "sum_active": 1.34,
-   "sum_weight": 1.34,
+   "sum_active": 1.41,
+   "sum_weight": 1.41,
    "funds": [
     {
      "etf": "00981A",
-     "w": 1.34,
-     "aw": 1.34
+     "w": 1.41,
+     "aw": 1.41
     }
    ],
-   "rank": 26,
+   "rank": 27,
    "mkt_weight": 0.0
   },
   {
    "code": "6805",
    "name": "富世達",
    "n_etfs": 1,
-   "sum_active": 1.1904,
-   "sum_weight": 1.29,
+   "sum_active": 1.2162,
+   "sum_weight": 1.31,
    "funds": [
     {
      "etf": "00981A",
-     "w": 1.29,
-     "aw": 1.1904
+     "w": 1.31,
+     "aw": 1.2162
     }
    ],
-   "rank": 27,
-   "mkt_weight": 0.0996
+   "rank": 28,
+   "mkt_weight": 0.0938
   },
   {
    "code": "2449",
    "name": "京元電子",
    "n_etfs": 1,
-   "sum_active": 0.9848,
-   "sum_weight": 1.21,
+   "sum_active": 1.0169,
+   "sum_weight": 1.24,
    "funds": [
     {
      "etf": "00981A",
-     "w": 1.21,
-     "aw": 0.9848
+     "w": 1.24,
+     "aw": 1.0169
     }
    ],
-   "rank": 28,
-   "mkt_weight": 0.2252
+   "rank": 29,
+   "mkt_weight": 0.2231
   },
   {
    "code": "6510",
@@ -605,168 +616,168 @@
      "aw": 0.53
     }
    ],
-   "rank": 29,
+   "rank": 30,
    "mkt_weight": 0.0
   },
   {
    "code": "8210",
    "name": "勤誠",
    "n_etfs": 1,
-   "sum_active": 0.4153,
-   "sum_weight": 0.49,
+   "sum_active": 0.4258,
+   "sum_weight": 0.5,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.49,
-     "aw": 0.4153
+     "w": 0.5,
+     "aw": 0.4258
     }
    ],
-   "rank": 30,
-   "mkt_weight": 0.0747
+   "rank": 31,
+   "mkt_weight": 0.0742
   },
   {
    "code": "3264",
    "name": "欣銓",
    "n_etfs": 1,
-   "sum_active": 0.41,
-   "sum_weight": 0.41,
+   "sum_active": 0.42,
+   "sum_weight": 0.42,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.41,
-     "aw": 0.41
+     "w": 0.42,
+     "aw": 0.42
     }
    ],
-   "rank": 31,
+   "rank": 32,
    "mkt_weight": 0.0
   },
   {
    "code": "3443",
    "name": "創意",
    "n_etfs": 1,
-   "sum_active": 0.3447,
-   "sum_weight": 0.92,
+   "sum_active": 0.3933,
+   "sum_weight": 0.94,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.92,
-     "aw": 0.3447
+     "w": 0.94,
+     "aw": 0.3933
     }
    ],
-   "rank": 32,
-   "mkt_weight": 0.5753
+   "rank": 33,
+   "mkt_weight": 0.5467
   },
   {
    "code": "6278",
    "name": "台表科",
    "n_etfs": 1,
-   "sum_active": 0.1836,
+   "sum_active": 0.1843,
    "sum_weight": 0.22,
    "funds": [
     {
      "etf": "00981A",
      "w": 0.22,
-     "aw": 0.1836
+     "aw": 0.1843
     }
    ],
-   "rank": 33,
-   "mkt_weight": 0.0364
+   "rank": 34,
+   "mkt_weight": 0.0357
   },
   {
    "code": "6271",
    "name": "同欣電",
    "n_etfs": 1,
-   "sum_active": 0.1492,
-   "sum_weight": 0.18,
+   "sum_active": 0.1588,
+   "sum_weight": 0.19,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.18,
-     "aw": 0.1492
+     "w": 0.19,
+     "aw": 0.1588
     }
    ],
-   "rank": 34,
-   "mkt_weight": 0.0308
+   "rank": 35,
+   "mkt_weight": 0.0312
   },
   {
    "code": "8996",
    "name": "高力",
    "n_etfs": 1,
-   "sum_active": 0.1425,
-   "sum_weight": 0.22,
+   "sum_active": 0.1529,
+   "sum_weight": 0.23,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.22,
-     "aw": 0.1425
+     "w": 0.23,
+     "aw": 0.1529
     }
    ],
-   "rank": 35,
-   "mkt_weight": 0.0775
+   "rank": 36,
+   "mkt_weight": 0.0771
   },
   {
    "code": "4958",
    "name": "臻鼎-KY",
    "n_etfs": 1,
-   "sum_active": 0.1131,
-   "sum_weight": 0.48,
+   "sum_active": 0.1393,
+   "sum_weight": 0.5,
    "funds": [
     {
      "etf": "00981A",
-     "w": 0.48,
-     "aw": 0.1131
+     "w": 0.5,
+     "aw": 0.1393
     }
    ],
-   "rank": 36,
-   "mkt_weight": 0.3669
+   "rank": 37,
+   "mkt_weight": 0.3607
   },
   {
    "code": "6191",
    "name": "精成科",
    "n_etfs": 1,
-   "sum_active": 0.0925,
+   "sum_active": 0.0927,
    "sum_weight": 0.12,
    "funds": [
     {
      "etf": "00981A",
      "w": 0.12,
-     "aw": 0.0925
+     "aw": 0.0927
     }
    ],
-   "rank": 37,
-   "mkt_weight": 0.0275
+   "rank": 38,
+   "mkt_weight": 0.0273
   },
   {
    "code": "3376",
    "name": "新日興",
    "n_etfs": 1,
-   "sum_active": 0.0862,
+   "sum_active": 0.0871,
    "sum_weight": 0.11,
    "funds": [
     {
      "etf": "00981A",
      "w": 0.11,
-     "aw": 0.0862
+     "aw": 0.0871
     }
    ],
-   "rank": 38,
-   "mkt_weight": 0.0238
+   "rank": 39,
+   "mkt_weight": 0.0229
   },
   {
    "code": "6515",
    "name": "穎崴",
    "n_etfs": 1,
-   "sum_active": 0.0587,
+   "sum_active": 0.0645,
    "sum_weight": 0.22,
    "funds": [
     {
      "etf": "00981A",
      "w": 0.22,
-     "aw": 0.0587
+     "aw": 0.0645
     }
    ],
-   "rank": 39,
-   "mkt_weight": 0.1613
+   "rank": 40,
+   "mkt_weight": 0.1555
   },
   {
    "code": "2368",
@@ -778,11 +789,11 @@
     {
      "etf": "00981A",
      "w": 0.08,
-     "aw": -0.2778
+     "aw": -0.2636
     }
    ],
-   "rank": 40,
-   "mkt_weight": 0.3578
+   "rank": 41,
+   "mkt_weight": 0.3436
   },
   {
    "code": "2002",
@@ -797,7 +808,7 @@
      "aw": -0.1584
     }
    ],
-   "rank": 41,
+   "rank": 42,
    "mkt_weight": 0.1984
   },
   {
@@ -810,11 +821,11 @@
     {
      "etf": "00981A",
      "w": 0.04,
-     "aw": -0.1429
+     "aw": -0.1422
     }
    ],
-   "rank": 42,
-   "mkt_weight": 0.1829
+   "rank": 43,
+   "mkt_weight": 0.1822
   }
  ],
  "tiers": [
@@ -826,13 +837,13 @@
      "code": "2383",
      "name": "台光電子材料",
      "n_etfs": 4,
-     "sum_active": 19.5346
+     "sum_active": 19.402
     },
     {
      "code": "2454",
      "name": "聯發科技",
      "n_etfs": 4,
-     "sum_active": 5.5323
+     "sum_active": 6.6371
     },
     {
      "code": "2330",
@@ -844,19 +855,19 @@
   },
   {
    "k": 3,
-   "count": 5,
+   "count": 4,
    "stocks": [
     {
      "code": "2383",
      "name": "台光電子材料",
      "n_etfs": 4,
-     "sum_active": 19.5346
+     "sum_active": 19.402
     },
     {
      "code": "2454",
      "name": "聯發科技",
      "n_etfs": 4,
-     "sum_active": 5.5323
+     "sum_active": 6.6371
     },
     {
      "code": "2330",
@@ -868,13 +879,7 @@
      "code": "3037",
      "name": "欣興電子",
      "n_etfs": 3,
-     "sum_active": 13.3633
-    },
-    {
-     "code": "6669",
-     "name": "緯穎科技服務",
-     "n_etfs": 3,
-     "sum_active": 11.897
+     "sum_active": 13.4714
     }
    ]
   },
@@ -886,13 +891,13 @@
      "code": "2383",
      "name": "台光電子材料",
      "n_etfs": 4,
-     "sum_active": 19.5346
+     "sum_active": 19.402
     },
     {
      "code": "2454",
      "name": "聯發科技",
      "n_etfs": 4,
-     "sum_active": 5.5323
+     "sum_active": 6.6371
     },
     {
      "code": "2330",
@@ -904,61 +909,61 @@
      "code": "3037",
      "name": "欣興電子",
      "n_etfs": 3,
-     "sum_active": 13.3633
-    },
-    {
-     "code": "6669",
-     "name": "緯穎科技服務",
-     "n_etfs": 3,
-     "sum_active": 11.897
+     "sum_active": 13.4714
     },
     {
      "code": "2059",
      "name": "川湖科技",
      "n_etfs": 2,
-     "sum_active": 10.4542
+     "sum_active": 10.6256
     },
     {
      "code": "3017",
      "name": "奇鋐",
      "n_etfs": 2,
-     "sum_active": 10.2524
+     "sum_active": 10.5422
     },
     {
      "code": "2408",
      "name": "南亞科技",
      "n_etfs": 2,
-     "sum_active": 9.0808
+     "sum_active": 9.5676
     },
     {
      "code": "2327",
      "name": "國巨*",
      "n_etfs": 2,
-     "sum_active": 8.7888
+     "sum_active": 8.7284
     },
     {
      "code": "8046",
      "name": "南電",
      "n_etfs": 2,
-     "sum_active": 7.6154
+     "sum_active": 7.6862
+    },
+    {
+     "code": "6669",
+     "name": "緯穎科技服務",
+     "n_etfs": 2,
+     "sum_active": 7.0384
     },
     {
      "code": "3711",
      "name": "日月光投資控股",
      "n_etfs": 2,
-     "sum_active": 4.0996
+     "sum_active": 4.3618
     },
     {
      "code": "2308",
      "name": "台達電子工業",
      "n_etfs": 2,
-     "sum_active": 2.415
+     "sum_active": 2.3652
     },
     {
      "code": "2317",
      "name": "鴻海精密工業",
      "n_etfs": 2,
-     "sum_active": 0.3276
+     "sum_active": 0.289
     }
    ]
   }
@@ -972,54 +977,54 @@
   ],
   "raw": [
    [
-    40.59,
-    25.86,
-    17.63,
-    29.16
+    40.44,
+    25.64,
+    17.44,
+    29.09
    ],
    [
-    25.86,
-    96.78,
-    22.22,
-    50.21
+    25.64,
+    98.11,
+    22.19,
+    46.26
    ],
    [
-    17.63,
-    22.22,
-    44.76,
-    20.19
+    17.44,
+    22.19,
+    44.42,
+    17.38
    ],
    [
-    29.16,
-    50.21,
-    20.19,
-    70.0
+    29.09,
+    46.26,
+    17.38,
+    70.43
    ]
   ],
   "active": [
    [
-    14.68,
-    6.17,
+    14.86,
+    6.18,
     1.47,
-    10.43
+    10.72
    ],
    [
-    6.17,
-    67.47,
-    5.48,
-    30.16
+    6.18,
+    69.0,
+    5.44,
+    26.64
    ],
    [
     1.47,
-    5.48,
-    19.61,
-    3.65
+    5.44,
+    19.44,
+    1.34
    ],
    [
-    10.43,
-    30.16,
-    3.65,
-    46.46
+    10.72,
+    26.64,
+    1.34,
+    47.32
    ]
   ]
  }
