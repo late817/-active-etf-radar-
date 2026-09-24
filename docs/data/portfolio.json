@@ -4,21 +4,21 @@
  "positions": {},
  "last_check_month": null,
  "inception_date": null,
- "as_of": "2026-09-22",
+ "as_of": "2026-09-23",
  "target_top": [
   {
    "code": "2383",
    "name": "台光電子材料",
    "rank": 1,
    "n_etfs": 4,
-   "sum_active": 18.6914
+   "sum_active": 18.479
   },
   {
    "code": "2454",
    "name": "聯發科技",
    "rank": 2,
    "n_etfs": 4,
-   "sum_active": 6.5971
+   "sum_active": 7.0804
   },
   {
    "code": "2330",
@@ -32,14 +32,14 @@
    "name": "欣興電子",
    "rank": 4,
    "n_etfs": 3,
-   "sum_active": 15.3587
+   "sum_active": 15.6847
   },
   {
    "code": "3017",
-   "name": "奇鋐",
+   "name": "奇鋐科技",
    "rank": 5,
-   "n_etfs": 2,
-   "sum_active": 10.811
+   "n_etfs": 3,
+   "sum_active": 12.6032
   }
  ]
 }
