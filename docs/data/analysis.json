@@ -1,10 +1,10 @@
 {
- "as_of": "2026-09-26 02:51",
+ "as_of": "2026-09-29 04:43",
  "trade_date": "2026-09-24",
  "coverage": {
   "total": 13,
   "parsed": 4,
-  "fresh": 4,
+  "fresh": 3,
   "etfs": {
    "00980A": {
     "name": "主動野村臺灣優選",
@@ -27,7 +27,7 @@
    "00991A": {
     "name": "主動復華未來50",
     "issuer": "復華投信",
-    "status": "ok",
+    "status": "stale",
     "data_date": "2026-09-24"
    },
    "00987A": {
@@ -251,13 +251,13 @@
    "code": "8046",
    "name": "南電",
    "n_etfs": 2,
-   "sum_active": 7.9803,
+   "sum_active": 7.9802,
    "sum_weight": 9.006,
    "funds": [
     {
      "etf": "00981A",
      "w": 3.82,
-     "aw": 3.3072
+     "aw": 3.3071
     },
     {
      "etf": "00991A",
@@ -553,7 +553,7 @@
     }
    ],
    "rank": 26,
-   "mkt_weight": 1.2081
+   "mkt_weight": 1.2082
   },
   {
    "code": "6805",
@@ -945,7 +945,7 @@
      "code": "8046",
      "name": "南電",
      "n_etfs": 2,
-     "sum_active": 7.9803
+     "sum_active": 7.9802
     },
     {
      "code": "3711",
