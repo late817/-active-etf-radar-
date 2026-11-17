@@ -1,5 +1,5 @@
 {
- "run_at": "2026-11-17 07:31",
+ "run_at": "2026-11-18 06:36",
  "summary": "4/13 檔成功",
  "details": [
   {
@@ -60,7 +60,7 @@
    "etf": "00991A",
    "issuer": "復華投信",
    "status": "ok",
-   "data_date": "2026-11-16",
+   "data_date": "2026-11-17",
    "count": 10,
    "url": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23",
    "error": null
@@ -77,11 +77,11 @@
   {
    "etf": "00987A",
    "issuer": "台新投信",
-   "status": "error",
-   "data_date": null,
-   "count": 0,
+   "status": "stale",
+   "data_date": "2025-12-30",
+   "count": 26,
    "url": "https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A",
-   "error": "TimeoutError: Page.goto: Timeout 45000ms exceeded.\nCall log:\n  - navigating to \"https://www.tsit.com.tw/ETF/Home/ETFSeriesDetail/00987A\", waiting until \"domcontentloaded\"\n"
+   "error": null
   },
   {
    "etf": "00994A",
