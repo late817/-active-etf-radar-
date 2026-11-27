@@ -1,6 +1,6 @@
 {
- "run_at": "2026-11-27 07:15",
- "summary": "4/13 檔成功",
+ "run_at": "2026-11-28 06:54",
+ "summary": "3/13 檔成功",
  "details": [
   {
    "etf": "00980A",
@@ -14,11 +14,11 @@
   {
    "etf": "00985A",
    "issuer": "野村投信",
-   "status": "ok",
+   "status": "error",
    "data_date": null,
-   "count": 10,
+   "count": 0,
    "url": "https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding",
-   "error": null
+   "error": "Error: Page.goto: net::ERR_TIMED_OUT at https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding\nCall log:\n  - navigating to \"https://www.nomurafunds.com.tw/ETFWEB/product-description?fundNo=00985A&tab=Shareholding\", waiting until \"domcontentloaded\"\n"
   },
   {
    "etf": "00981A",
@@ -60,7 +60,7 @@
    "etf": "00991A",
    "issuer": "復華投信",
    "status": "ok",
-   "data_date": "2026-11-26",
+   "data_date": "2026-11-27",
    "count": 10,
    "url": "https://www.fhtrust.com.tw/ETF/etf_detail/ETF23",
    "error": null
